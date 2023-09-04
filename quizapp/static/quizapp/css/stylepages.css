@@ -1,0 +1,67 @@
+body{
+    height: auto;
+    overflow-x: hidden !important;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(https://i0.wp.com/worldgbctourevent.fr/wp-content/uploads/2018/01/banner-bg-1.jpg?ssl=1); */
+    /* background-image: url(https://www.proseworks.co.uk/wp-content/uploads/2015/09/bg-digital-1024x614.jpg); */
+    /* background-image: url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1380&t=st=1693653375~exp=1693653975~hmac=2d70730afc805089175f5ab5f69ece18e4080818c9b621129749f9dfa0949ade); */
+    background-image: url(https://img.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg?w=826&t=st=1693653772~exp=1693654372~hmac=64a5bec71219db6fa458b6d70364bb71646cb57384f7ef97740c3e8db265ca03);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button{
+    display: inline-block;
+    font-weight: 400;
+    
+    text-align: center;
+    vertical-align: middle;
+    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    width: 100%;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.container{
+    /* box-shadow: 0 0 30px rgb(197, 196, 196) ; */
+    /* box-shadow: 0 0 30px inset rgb(238, 238, 238); */
+    background-color: rgba(255, 255,255,0.1);
+  backdrop-filter: blur(5px);
+    border-radius: 10px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    /* border: 1px solid blue; */
+    /* background: white; */
+    border-style: solid ;
+    border-color: rgba(255, 255,255,0.5);
+    width: 90%;
+    max-width: 400px;
+}
+input{
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    background: rgb(238, 238, 238);
+    outline: none;
+    border: none;
+    
+}
+li{
+    color: red;
+}

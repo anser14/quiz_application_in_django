@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup here</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'quizapp/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'quizapp/css/stylepages.css' %}">
+<style>
+  .container{
+    width:500px;
+    max-width:90%;
+  }
+</style>
+</head>
+<body>
+    <div class="container" >
+    <h2>Sign Up</h2>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">Sign Up</button>
+      <p>already a member?</p>
+      <a href="{% url 'quizapp:login' %} ">login now</a>
+    </form>
+</div>
+
+</body>
+</html> 

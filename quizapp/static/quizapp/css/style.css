@@ -1,0 +1,198 @@
+*{
+    margin: 0;padding: 0;
+}
+.nav{
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ background: white;
+  border-bottom: 5px solid blue;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+.nav h1{
+  padding-left: 50px;
+  font-size: 60px;
+  color: aqua;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  padding-right: 50px;
+  flex-wrap: wrap;
+
+}
+.menu ul{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.menu ul li{
+  padding: 10px 20px;
+display: inline-block;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+  .not-visible{
+    display: none !important;
+  }
+  #score-box{
+    font-size: 25px;
+  }
+  .timer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .row{
+    height: 140px !important;
+  }
+  #timer-box{
+    color: red;
+  }
+ /* #nav{
+  width: 100% !important;
+    
+    background: #ffff !important;
+    position: fixed !important;
+ } */
+ #choices{
+  background-color: #c0c0c0b5;
+ }
+ #quiz-btn{
+  width: auto !important;
+  
+ }
+ .main{
+  display: flex;
+  flex-wrap: wrap;
+align-items: start;
+justify-content: center;
+ }
+ .card{
+  width: 350px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ padding: 10px;
+ color: white;
+ background-color: rgba(255, 255,255,0.2) !important;
+ backdrop-filter: blur(5px) !important;
+ border-style: solid ;
+    border-color: rgba(255, 255,255,0.5);
+ border-radius: 10px;
+  margin: 10px;  
+  /* box-shadow: 0 0 20px silver;  */
+  /* transition: all 0.5s ease-in-out; */
+ }
+ .card:hover{
+  transform: scale(1.04);
+ }
+ .card p{
+  text-align: center;
+ }
+ #quiz-box{
+  box-shadow: 0 0 5px rgba(192, 192, 192, 0.603);
+  border-radius:10px ;
+  padding: 20px;
+  margin: 10px;
+ }
+ .hidden{
+  display: none;
+ }
+ .btnbox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+.card h2{
+  text-transform: capitalize !important;
+}
+#options{
+  background: rgb(216, 216, 216);
+}
+#options:hover{
+  background: silver;
+}
+
+.button-learn {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #fff;
+  text-decoration: none;
+  padding: 10px 20px !important;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-learn:hover,
+.button-learn:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-learn:active {
+  
+color: #fff;
+}
+html{
+  overflow-x: hidden !important;
+}
+#body{
+  overflow-x: hidden !important;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://i0.wp.com/worldgbctourevent.fr/wp-content/uploads/2018/01/banner-bg-1.jpg?ssl=1);
+  /* background-image: url(https://www.proseworks.co.uk/wp-content/uploads/2015/09/bg-digital-1024x614.jpg); */
+  /* background-image: url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1380&t=st=1693653375~exp=1693653975~hmac=2d70730afc805089175f5ab5f69ece18e4080818c9b621129749f9dfa0949ade); */
+  /* background-image: url(https://img.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg?w=826&t=st=1693653772~exp=1693654372~hmac=64a5bec71219db6fa458b6d70364bb71646cb57384f7ef97740c3e8db265ca03); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer{
+  width: 100%;height: auto;
+border-top: 2px solid silver;
+}
+.footer p{
+  text-align: center;padding:10px ;
+}
